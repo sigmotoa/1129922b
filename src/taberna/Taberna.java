@@ -18,7 +18,7 @@ public class Taberna {
      */
     public static void main(String[] args) 
     {
-        Persona migente[]=new Persona[3];
+        Persona migente[]=new Persona[1];
         Scanner read=new Scanner(System.in);
         //String dato="";
         for (int i = 0; i < migente.length; i++) 
@@ -36,7 +36,7 @@ public class Taberna {
             migente[i].birthday[j]=read.nextInt();
             }
             
-            
+            System.out.println(migente[0]);
             
             
         }

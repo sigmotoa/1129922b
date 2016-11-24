@@ -19,13 +19,14 @@ public class Taberna {
     public static void main(String[] args) 
     {
         Persona migente[]=new Persona[1];
+        
         Scanner read=new Scanner(System.in);
         //String dato="";
         for (int i = 0; i < migente.length; i++) 
         {   migente[i]=new Persona();
             System.out.println("Ingrese el nombre");
             //dato=read.next();
-            migente[i].name=read.next();
+            migente[i].setName(read.next());
             System.out.println("Ingrese apellido");
           //  dato=read.next();
             migente[i].surname=read.next();

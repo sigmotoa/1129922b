@@ -11,7 +11,7 @@ package taberna;
  */
 public class Persona {
 
-    String name;
+    private String name;
     String id;
     String surname;
     int birthday[] = new int[3];// 0=dia, 1=mes, 2=año
@@ -53,4 +53,15 @@ public class Persona {
         return arre;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    
+    
+    
 }
